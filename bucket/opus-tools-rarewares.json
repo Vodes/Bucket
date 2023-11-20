@@ -1,7 +1,10 @@
 {
-    "homepage": "https://www.rarewares.org/opus.php",
+    "homepage": "https://opus-codec.org",
     "description": "A totally open, royalty-free, highly versatile audio codec.",
-    "license": "unknown",
+    "license": {
+        "identifier": "BSD-3-Clause, GPL-2.0-only",
+        "url": "https://opus-codec.org/license"
+    },
     "version": "0.2-20230419",
     "architecture": {
         "64bit": {
@@ -18,7 +21,10 @@
         "opusdec.exe",
         "opusinfo.exe"
     ],
-    "checkver": "opustools-(\\d\\.\\d-\\d{8})-x64\\.zip",
+    "checkver": {
+        "url": "https://www.rarewares.org/opus.php",
+        "regex": "opustools-(\\d\\.\\d-\\d{8})-x64\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
