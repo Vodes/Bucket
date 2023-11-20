@@ -11,8 +11,6 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## How do I install apps/tools from here?
 
-After manifests have been committed and pushed, run the following:
-
 ```pwsh
 scoop bucket add Vodes https://github.com/Vodes/Bucket
 scoop install Vodes/<manifestname>
