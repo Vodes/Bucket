@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.rationalqm.us/dgdecnv/dgdecnv.html",
+    "description": "A AVC/HEVC/MPG/VC1 Decoder and Frame Server using CUDA Video decoding.",
+    "license": "Freeware",
+    "version": "247",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.rationalqm.us/dgdecnv/binaries/dgdecnv_247.zip",
+            "hash": "a6bdf9008b071d97a85363164563feb9793aac6e4a9a51a9d7a2f676c385fe5e"
+        }
+    },
+    "bin": "DGIndexNV.exe",
+    "shortcuts": [
+        [
+            "DGIndexNV.exe",
+            "DGIndexNV"
+        ]
+    ],
+    "post_install": [
+        "$targetDir = \"$env:APPDATA\\Vapoursynth\\plugins64\"",
+        "if (Test-Path -Path $targetDir -PathType Container) {",
+        "  cmd /c mklink /H \"$targetDir\\DGDecodeNV.dll\" \"$dir\\DGDecodeNV.dll\"",
+        "}"
+    ],
+    "post_uninstall": [
+        "Remove-Item \"$env:APPDATA/Vapoursynth/plugins64/DGDecodeNV.dll\""
+    ]
+}
