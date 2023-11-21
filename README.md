@@ -7,6 +7,8 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## Available Tools
 - opus-tools-rarewares (from [rarewares](https://www.rarewares.org/opus.php) because they're more uptodate than official builds)
+- fdkaac
+- dgindexnv
 
 
 ## How do I install apps/tools from here?
