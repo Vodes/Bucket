@@ -11,10 +11,10 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 - dgindexnv
 - Airshipper (Launcher for [veloren](https://veloren.net))
 
-## Vapoursynth Stuff 
+## Vapoursynth Stuff
 Very cursed implementations
 - vs-dfttest2 (this is the python wrapper, install vs-dfttest2-cpu or vs-dfttest2-cuda to get a runtime)
-- [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)-cuda 
+- [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)-cuda
 
 
 ## How do I install apps/tools from here?
