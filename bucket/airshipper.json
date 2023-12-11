@@ -14,8 +14,14 @@
         "Remove-Item -Force -Recurse -Path \"$dir\\PFiles\""
     ],
     "shortcuts": [
-        ["airshipper.exe", "Airshipper"],
-        ["airshipper.exe", "Veloren"]
+        [
+            "airshipper.exe",
+            "Airshipper"
+        ],
+        [
+            "airshipper.exe",
+            "Veloren"
+        ]
     ],
     "bin": "airshipper.exe",
     "checkver": {
