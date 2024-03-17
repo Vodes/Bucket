@@ -7,13 +7,14 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## Available Tools
 - opus-tools-rarewares (from [rarewares](https://www.rarewares.org/opus.php) because they're more uptodate than official builds)
-- fdkaac
-- dgindexnv
+- [fdkaac](https://github.com/nu774/fdkaac)
+- [dgindexnv](https://www.rationalqm.us/dgdecnv/dgdecnv.html)
 - Airshipper (Launcher for [veloren](https://veloren.net))
+- [SupMover](https://github.com/MonoS/SupMover)
 
 ## Vapoursynth Stuff
 Very cursed implementations
-- vs-dfttest2 (this is the python wrapper, install vs-dfttest2-cpu or vs-dfttest2-cuda to get a runtime)
+- [vs-dfttest2](https://github.com/AmusementClub/vs-dfttest2) (this is the python wrapper, install vs-dfttest2-cpu or vs-dfttest2-cuda to get a runtime)
 - [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)-cuda
 
 
