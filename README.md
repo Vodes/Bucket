@@ -11,6 +11,7 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 - [dgindexnv](https://www.rationalqm.us/dgdecnv/dgdecnv.html)
 - Airshipper (Launcher for [veloren](https://veloren.net))
 - [SupMover](https://github.com/MonoS/SupMover)
+- [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 
 ## Vapoursynth Stuff
 Very cursed implementations

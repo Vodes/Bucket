@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/ModOrganizer2/modorganizer",
+    "description": "An open-source mod manager for various (Bethesda) games.",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/ModOrganizer2/modorganizer/blob/master/LICENSE"
+    },
+    "version": "2.5.1rc2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.5.1rc2/Mod.Organizer-2.5.1rc2.7z",
+            "hash": "03b1cf448a626e5ffb2a7d627886c5331c3f32cb2372a429f2d26a25706fffeb"
+        }
+    },
+    "shortcuts": [
+        [
+            "ModOrganizer.exe",
+            "Mod Organizer 2"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/ModOrganizer2/modorganizer/tags",
+        "jsonpath": "$[0].name",
+        "regex": "v(.+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v$version/Mod.Organizer-$version.7z"
+            }
+        }
+    }
+}
