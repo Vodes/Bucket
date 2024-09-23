@@ -12,6 +12,7 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 - Airshipper (Launcher for [veloren](https://veloren.net))
 - [SupMover](https://github.com/MonoS/SupMover)
 - [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
+- [ffmpeg-ytdlp-nonfree](https://github.com/Vodes/FFmpeg-Builds)
 
 ## Vapoursynth Stuff
 Very cursed implementations
