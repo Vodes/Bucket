@@ -26,7 +26,7 @@
     "bin": "airshipper.exe",
     "checkver": {
         "github": "https://github.com/veloren/Airshipper",
-        "regex": "Release (\\d+\\.\\d+\\.\\d+)"
+        "regex": "(?:Release|v) ?(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
         "architecture": {
