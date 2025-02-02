@@ -13,6 +13,7 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 - [SupMover](https://github.com/MonoS/SupMover)
 - [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 - [ffmpeg-ytdlp-nonfree](https://github.com/Vodes/FFmpeg-Builds)
+- [dlss-swapper](https://github.com/beeradmoore/dlss-swapper)
 
 ## Vapoursynth Stuff
 Very cursed implementations
