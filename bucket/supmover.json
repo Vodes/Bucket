@@ -13,11 +13,7 @@
         }
     },
     "bin": [
-        [
-            "SupMover-win.exe",
-            "supmover"
-        ],
-        "SupMover-win.exe"
+        "supmover.exe"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/MonoS/SupMover/tags",
