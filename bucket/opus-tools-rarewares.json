@@ -5,7 +5,7 @@
         "identifier": "BSD-3-Clause, GPL-2.0-only",
         "url": "https://opus-codec.org/license"
     },
-    "version": "0.2-49-g4b96717(using libopus 1.6.1-11-g788cc89)",
+    "version": "0.2-49-g4b96717-libopus-1.6.1-11-g788cc89",
     "architecture": {
         "64bit": {
             "url": "https://www.rarewares.org/files/opus/opus-tools-0.2-49-g4b96717(using%20libopus%201.6.1-11-g788cc89)-x64.zip",
@@ -23,7 +23,8 @@
     ],
     "checkver": {
         "url": "https://www.rarewares.org/opus.php",
-        "regex": "opus-tools-((?<version>\\d+.\\d+-\\d+-\\w{8})\\(using libopus (?<libopusver>\\d+\\.\\d+\\.\\d+-\\d+-\\w{8})\\))"
+        "regex": "opus-tools-((?<version>\\d+.\\d+-\\d+-\\w{8})\\(using libopus (?<libopusver>\\d+\\.\\d+\\.\\d+-\\d+-\\w{8})\\))",
+        "replace": "${version}-libopus-${libopusver}"
     },
     "autoupdate": {
         "architecture": {
