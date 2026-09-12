@@ -14,9 +14,9 @@
     },
     "bin": "fdkaac.exe",
     "checkver": {
-        "url": "https://api.github.com/repos/Vodes/muxtools-binaries/tags",
-        "jsonpath": "$[?(@.name =~ /^fdkaac-/)].name",
-        "regex": "fdkaac-(?<version>[\\w.-]+)"
+        "url": "https://github.com/Vodes/muxtools-binaries/releases/download/catalog-v1/versions.json",
+        "jsonpath": "$.packages['fdkaac'].versions.*.version",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

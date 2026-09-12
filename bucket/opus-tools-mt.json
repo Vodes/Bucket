@@ -18,9 +18,9 @@
         "opusinfo.exe"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Vodes/muxtools-binaries/tags",
-        "jsonpath": "$[?(@.name =~ /^opus-tools-/)].name",
-        "regex": "opus-tools-(?<version>[\\w.-]+)"
+        "url": "https://github.com/Vodes/muxtools-binaries/releases/download/catalog-v1/versions.json",
+        "jsonpath": "$.packages['opus-tools'].versions.*.version",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
