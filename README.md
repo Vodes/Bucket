@@ -6,20 +6,14 @@
 Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## Available Tools
-- opus-tools-rarewares (from [rarewares](https://www.rarewares.org/opus.php) because they're more uptodate than official builds)
-- [fdkaac](https://github.com/nu774/fdkaac)
-- [dgindexnv](https://www.rationalqm.us/dgdecnv/dgdecnv.html)
+- opus-tools-mt (from [muxtools-binaries](https://github.com/Vodes/muxtools-binaries) because they're more up-to-date than official builds)
+- [fdkaac](https://github.com/nu774/fdkaac) (also via [muxtools-binaries](https://github.com/Vodes/muxtools-binaries))
 - Airshipper (Launcher for [veloren](https://veloren.net))
 - [SupMover](https://github.com/MonoS/SupMover)
 - [ModOrganizer2](https://github.com/ModOrganizer2/modorganizer)
 - [ffmpeg-ytdlp-nonfree](https://github.com/Vodes/FFmpeg-Builds)
 - [dlss-swapper](https://github.com/beeradmoore/dlss-swapper)
-
-## Vapoursynth Stuff
-Very cursed implementations
-- [vs-dfttest2](https://github.com/AmusementClub/vs-dfttest2) (this is the python wrapper, install vs-dfttest2-cpu or vs-dfttest2-cuda to get a runtime)
-- [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)-cuda
-
+- [CUETools](https://github.com/gchudov/cuetools.net)
 
 ## How do I install apps/tools from here?
 
