@@ -5,7 +5,7 @@
         "identifier": "BSD-3-Clause, GPL-2.0-only",
         "url": "https://opus-codec.org/license"
     },
-	"notes": "This manifest is deprecated, use `opus-tools-mt` instead.",
+    "notes": "This manifest is deprecated, use `opus-tools-mt` instead.",
     "version": "0.2-52-g5f894e9-libopus-1.6.1-11-g788cc89",
     "architecture": {
         "64bit": {
