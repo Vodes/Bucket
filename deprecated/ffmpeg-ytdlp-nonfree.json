@@ -15,6 +15,7 @@
             "extract_dir": "ffmpeg-n9.0.2-8-gb135b25c19-winarm64-nonfree-9.0"
         }
     },
+    "notes": "This manifest is deprecated, use `ffmpeg-mt-nonfree` instead.",
     "bin": [
         [
             "bin\\ffmpeg.exe",
